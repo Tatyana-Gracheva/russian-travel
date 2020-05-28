@@ -8,4 +8,4 @@
 Файловая структура оформлена в соответствии с требованиями Nested БЭМ.
 Целью реализации проекта стало изучение технологии ”Grid Layout“, получения навыков работы со средой Figma и создания адаптивного сайта, а также более глубокое изучение работы с Git.
 
-ссылка проекта на GitHub [GitHub](https://praktikum.yandex.ru)
+ссылка проекта на GitHub [GitHub](http://tatyana-gracheva.github.io/russian-travel/index.html)
