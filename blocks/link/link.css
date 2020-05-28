@@ -1,0 +1,4 @@
+@import url(./_decoration/link_decoration.css);
+.link:hover {
+  opacity: 0.8;
+}

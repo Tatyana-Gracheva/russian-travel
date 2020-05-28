@@ -1,0 +1,23 @@
+.footer__item {
+  display: inline;
+  padding: 0 0 0 18px;
+  
+}
+
+.footer__item:first-of-type {
+  padding: 0;
+}
+
+@media all and (max-width: 700px) {
+  .footer__item {
+    display: block;
+    padding: 20px 0 0 0;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .footer__item {
+    display: block;
+    padding: 32px 0 0 0;
+  }
+}

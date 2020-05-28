@@ -1,6 +1,21 @@
 .place__link {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
   color: #FFFFFF;
+}
+
+@media all and (max-width: 500px) {
+  .place__link {
+    word-wrap: break-word;
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .place__link {
+    font-size: 18px;
+  }
 }

@@ -1,0 +1,8 @@
+.header__item {
+  display: inline;
+  padding: 0 18px 0 0;
+}
+
+.header__item:last-of-type {
+  padding-right: 0;
+}

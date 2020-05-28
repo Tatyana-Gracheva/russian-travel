@@ -1,7 +1,7 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang-links/header__lang-links.css);
 @import url(./__lang-link/header__lang-link.css);
-@import url(./__list/header__list.css);
+@import url(./__item/header__item.css);
 
 .header {
   width: calc(100% - 2*48px);
@@ -9,4 +9,18 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+@media all and (max-width: 768px) {
+  .header {
+    width: calc(100% - 2*24px);
+    padding: 28px 24px 0;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .header {
+    width: calc(100% - 2*16px);
+    padding: 16px 16px 0;
+  }
 }
