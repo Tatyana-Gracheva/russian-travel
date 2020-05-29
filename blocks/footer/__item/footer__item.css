@@ -1,7 +1,5 @@
 .footer__item {
-  display: inline;
   padding: 0 0 0 18px;
-  
 }
 
 .footer__item:first-of-type {
@@ -15,9 +13,8 @@
   }
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 450px) {
   .footer__item {
-    display: block;
     padding: 32px 0 0 0;
   }
 }

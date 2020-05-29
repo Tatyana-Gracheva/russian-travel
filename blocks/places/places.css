@@ -17,7 +17,7 @@
   }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 350px) {
   .places {
     margin-top: 64px;
     padding: 0;

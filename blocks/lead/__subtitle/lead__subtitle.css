@@ -10,6 +10,27 @@
   color: #FFFFFF;
 }
 
+@media all and (max-width: 700px) {
+  .lead__subtitle {
+    font-size: 28px;
+    max-width: 520px;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .lead__subtitle {
+    font-size: 24px;
+    max-width: 395px;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .lead__subtitle {
+    font-size: 18px;
+    max-width: 300px;
+  }
+}
+
 @media all and (max-width: 320px) {
   .lead__subtitle {
     max-width: 288px;

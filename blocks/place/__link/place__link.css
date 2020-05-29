@@ -9,12 +9,11 @@
 
 @media all and (max-width: 500px) {
   .place__link {
-    word-wrap: break-word;
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 450px) {
   .place__link {
     font-size: 18px;
   }

@@ -1,4 +1,7 @@
-@import url(./_decoration/link_decoration.css);
+.link {
+  transition: opacity .5s ease 0s;
+}  
+
 .link:hover {
   opacity: 0.8;
 }

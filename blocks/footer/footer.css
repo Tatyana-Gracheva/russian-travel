@@ -1,4 +1,4 @@
-@import url(./__navigation/footer__navigation.css);
+@import url(./__list/footer__list.css);
 @import url(./__item/footer__item.css);
 @import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
@@ -29,7 +29,7 @@
   }
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 450px) {
   .footer {
     padding-left: 16px;
     margin-top: 64px;

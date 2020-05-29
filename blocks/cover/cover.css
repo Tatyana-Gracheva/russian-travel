@@ -1,3 +1,4 @@
+@import url(./__content/cover__content.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__overlay/cover__overlay.css);
@@ -6,15 +7,10 @@
 .cover {
   width: calc(100% - 2*48px);
   height: 740px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 92px 48px 0 48px;
   background-image: url(../../images/cover-trains.jpg);
   background-position: center;
   background-size: cover;
-  position: relative;
 }
 
 .cover:hover .cover__overlay {
@@ -36,7 +32,7 @@
   }
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 450px) {
   .cover {
     height: 300px;
     margin-top: 72px;
