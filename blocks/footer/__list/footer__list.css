@@ -4,3 +4,9 @@
   margin: 0;
   display: flex;
 }
+
+@media all and (max-width: 710px) {
+  .footer__list {
+    flex-direction: column;
+  }
+}

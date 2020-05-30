@@ -6,9 +6,8 @@
   padding: 0;
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 710px) {
   .footer__item {
-    display: block;
     padding: 20px 0 0 0;
   }
 }
