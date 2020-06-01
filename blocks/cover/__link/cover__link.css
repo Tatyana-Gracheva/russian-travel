@@ -3,4 +3,9 @@
   height: 100%;
   text-decoration: none;
   color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
